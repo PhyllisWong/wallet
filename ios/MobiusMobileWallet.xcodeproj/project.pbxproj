@@ -267,8 +267,8 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = RW55Q5RBBV;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = S44SNCV32X;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
@@ -500,8 +500,12 @@
 			baseConfigurationReference = 7098ED4D213DA6BA0068DB08 /* MobiusMobileWallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Phyllis Wong (5YGJ68XPUQ)";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 28;
+				DEVELOPMENT_TEAM = S44SNCV32X;
 				INFOPLIST_FILE = MobiusMobileWallet/Info.plist;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -510,8 +514,12 @@
 			baseConfigurationReference = 7098ED4E213DA6BB0068DB08 /* MobiusMobileWallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Phyllis Wong (5YGJ68XPUQ)";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 28;
+				DEVELOPMENT_TEAM = S44SNCV32X;
 				INFOPLIST_FILE = MobiusMobileWallet/Info.plist;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -519,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7098ED46213DA4870068DB08 /* Project.debug.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = .com.MobiusMobileWallet.com;
 			};
 			name = Debug;
 		};
@@ -526,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7098ED47213DA4870068DB08 /* Project.release.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = .com.MobiusMobileWallet.com;
 			};
 			name = Release;
 		};
