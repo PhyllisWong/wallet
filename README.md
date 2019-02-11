@@ -1,5 +1,9 @@
 # Mobius Network mobile wallet
 
+## system requirements
+
+
+
 ## Install dependencies
 ```
 cd ios
